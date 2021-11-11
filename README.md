@@ -38,3 +38,9 @@ root@1fede8df4ec1:/usr/local/apache2# readelf -s `which httpd` | grep merge | gr
 </pre>
 
 5. gdbserver를 이용해서 IDA와 Ghidra와 같은 프로그램으로 remote debugging이 가능합니다. 
+
+### gdb attach 된 화면은 다음과 같습니다. 
+![image](https://user-images.githubusercontent.com/43310843/141247834-cbc2c9f4-2528-4eaf-be36-c03a79e0ea9c.png)
+
+### 출처 
+https://httpd.apache.org/dev/debugging.html
